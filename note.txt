@@ -1,0 +1,12 @@
+1. Import/Expor default
+
+-> useTailwindConfig.vue
+export default () => {}
+
+-> app.vue
+const {defaultTransition } = useTailwindConfig();
+
+
+2. Auto-import
+
+<LogoTwitter /> = (Logo/Twitter.vue)
